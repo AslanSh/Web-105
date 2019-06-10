@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Contact Us
+    </title>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <form action="" method="POST">
+                <tr>
+                    <td> <label for="name">First Name</label> </td>
+                    <td> <input type="text" name="name" value="Aslan"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="lastname">Last name</label> </td>
+                    <td> <input type="text" name="lastname" placeholder="Enter your family here..."> </td>
+                </tr>
+                <tr>
+                    <td> <label for="email">Email</label> </td>
+                    <td> <input type="email" name="email" value="aslan.shojaei@hotmail.com" disabled> </td>
+                </tr>
+                <tr>
+                    <td> <label for="Password">Password</label> </td>
+                    <td> <input type="password" name="Password"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="gender">Gender</label> </td>
+                    <td> <label for="male">Male</label>
+                        <input type="radio" name="gender" value="male">
+                        <label for="fmale">Fmale</label>
+                        <input type="radio" name="gender" value="fmale">
+                        <label for="other">Other</label>
+                        <input type="radio" name="gender" value="other"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="mobile">Mobile</label> </td>
+                    <td> <select name="Mobile" id="">
+                            <option value="4number">0912</option> 
+                            <option value="4number">0911</option>  
+                            <option value="4number">0910</option>                         
+                        </select>
+                        <input type="text" name="6number" placeholder="7808080"> </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="4"> <label for="int">Intrerests</label> </td>
+                    <td> <input type="checkbox" name="music" id="music">
+                        <label for="music">Music</label></td>
+                </tr>
+                <tr>
+                    <td> <input type="checkbox" name="book" id="book" disabled>
+                        <label for="book">Book</label> </td>
+                </tr>
+                <tr>
+                    <td> <input type="checkbox" name="film" id="film">
+                        <label for="film">Film</label> </td>
+
+                </tr>
+                <tr>
+                    <td> <input type="checkbox" name="poker" id="poker">
+                        <label for="poker">Poker</label> </td>
+
+                </tr>
+                <tr>
+                    <td> <label for="text">Your Comment</label> </td>
+                    <td> <textarea name="text" id="" cols="30" rows="10">awesome web design</textarea> </td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" value="Send"> </td>
+                    <!--برای زیبایی دکمه ریست را در جدول جداگانه قرار دادم-->
+                    <td> <input type="reset" value="reset"> </td>
+                </tr>
+            </form>
+        </tbody>
+    </table>
+</body>
+
+</html>
