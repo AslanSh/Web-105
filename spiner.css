@@ -1,0 +1,13 @@
+.loader{
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    border: 3px solid transparent;
+    border-top-color: 3px  darkblue;
+    border-radius: 50%
+
+}
