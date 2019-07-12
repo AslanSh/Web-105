@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+
+    <style>
+        body{
+            margin: 0 auto;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        /* --Header-- */
+header{
+    background-color: rgb(58, 68, 211);
+    max-width: 0 auto;
+    
+}
+
+header>ul{
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+ul li{
+    padding: 0 30px;
+    float: left;
+}
+header>ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    background-color: darkgoldenrod;
+    color:black;
+    border-radius: 5px;
+}
+li a:hover{
+    background-color: #111;
+    color: lightsalmon
+}
+/* --Main-- */
+main{
+    margin: 0;
+    padding: 10% 20%;
+    max-width: 100rem;
+    height: 200px;
+    background-color: rgb(58, 68, 211);
+    color: aliceblue;
+    text-align: center;
+}
+/* --Section-- */
+section{
+    height: 700px;
+    background-color: white;
+    /* width: 75%; */
+    max-width: 920px;
+    margin: -150px auto 0 auto;
+    padding: 1%;
+}
+section>h2 {
+    text-align: center;
+    color: rgb(58, 68, 211);
+}
+section>p{
+    text-align: justify;
+}
+section>a{
+    text-decoration: none;
+    color: darkgoldenrod;
+    text-align: center;
+}
+/* --Footer-- */
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: darkgoldenrod;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+footer>div{
+    padding: 0 30px;
+}
+    </style>
+
+</head>
+<body>
+    <header>
+       <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+       </ul>
+    </header>
+    <main>
+        <h1>Web Site</h1>
+        <h2>my web site is my work</h2>
+    </main>
+    <section>
+        <h2>this is my Work</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut adipisci eum odit necessitatibus consectetur tenetur doloribus eveniet, tempore quas consequuntur earum fuga deserunt dolores aliquid numquam provident? Voluptatem expedita aperiam earum debitis nobis nemo eveniet sit magni, reiciendis vero asperiores explicabo aliquam, rerum quidem repudiandae ipsam! Reprehenderit, quis minus!</p>
+        <a href="#">learn more...</a>
+
+        <h2>this is my Life</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et, ea delectus, numquam, consectetur in soluta quam repudiandae laboriosam a qui doloribus officia magnam. Mollitia fuga recusandae amet debitis beatae veritatis in voluptates et illo maxime? Nostrum doloremque tempora nesciunt!</p>
+        <a href="#">learn more...</a>
+
+        <h2>this is my School</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque magni quis perferendis necessitatibus corrupti ea itaque quam error fugiat minima.</p>
+        <a href="#">learn more...</a>
+
+    
+    </section>
+   
+    <footer>
+        <div id="div1">
+            <h2>item-1</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, sapiente.</h3>
+        </div>
+        <div id="div2">
+            <h2>item-2</h2>
+            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, iusto?</h3>
+        </div>
+        <div id="div3">
+            <h2>item-3</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, odio.</h3>
+        </div>
+    </footer>
+</body>
+</html>
