@@ -1,0 +1,170 @@
+@font-face {
+    src: url('../fonts/Yekan.ttf');
+    font-family: 'ykan';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    font-family: 'ykan' !important;
+    box-sizing: border-box;
+}
+/* GLOBAL */
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: 'ykan'; */
+    direction: rtl;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul {
+    list-style-type: none;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+/* HEADER */
+.header {
+    background-color: #3D250D;
+    border-bottom: 1px solid #111;
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* padding: 15px 0px; */
+}
+.header ul a {
+    display: block;
+    padding: 15px 12px;
+
+    border-top: 2px solid transparent;
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header ul {
+    display: flex;
+}
+.header .active a , .header ul a:hover{
+    color: #FFEBCA;
+    /* border-top: 2px solid #FFEBCA; */
+    border-top-color: #FFEBCA;
+}
+#branding a{
+    font-family: 'Indie Flower' !important;
+    font-size: 27px;
+    font-weight: 800;
+    color: #FFEBCA;
+    display: block;
+    padding: 10px 0px;
+}
+#branding a:hover{
+    color: #fff;
+}
+/* END OF HEADER */
+#show-case{
+    background: url('../images/hero-bg.jpg');
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#show-case h1{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 500;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0);
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 60px;
+}
+#show-case .btn{
+    padding: 12px 16px;
+    min-width: 250px;
+    margin: 0 12px;
+    font-size: 20px;
+    transition: background-color .5s;
+}
+#show-case .btn-menu{
+    background-color: rgba(0, 0, 0, .5);
+    border: 1px solid #000;
+}
+#show-case .btn-menu:hover{
+    background-color: rgba(0, 0, 0, 1)
+}
+#show-case .btn-reserv:hover{
+    background-color: rgba(255, 255, 255, 0)
+}
+#show-case .btn-reserv{
+    background-color: rgba(255, 255, 255, .2);
+    border: 1px solid #fff;
+}
+
+/* Menu */
+#menu{
+    padding: 10px;
+    background: url(../images/DD-Brown-Paper-Background-45534-Preview.jpg);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.grid-container img{
+    width: 100%;
+    border-radius: 1px;
+}
+
+.menu-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+    margin-bottom: 10px;
+    /* grid-auto-rows: 400px; */
+}
+
+.menu-grid-container div {
+    background-color: #f1f1f1;
+}
+
+.menu-grid-container div h3{
+    text-align: center;
+    background-color: #FFEBCA;
+    padding: 8px 10px;
+    font-size: 24px;
+}
+.main-foods{
+    padding: 15px;
+}
+.main-food{
+    margin-bottom: 12px;
+}
+.main-food .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-food .price{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3D250D;
+}
+.main-food .detail{
+    font-size: 12px;
+}
+.main-food div {
+    text-align: center;
+}
